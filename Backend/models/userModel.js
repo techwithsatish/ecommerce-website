@@ -7,8 +7,6 @@ const userSchema = new mongoose.Schema({
     cartData: { type: Object, default: {} }
 }, { minimize: false }) 
 
-// q1. Why is minimize is set to flase?
-
 const userModel = mongoose.models.user || mongoose.model('user',userSchema);
 
 export default userModel

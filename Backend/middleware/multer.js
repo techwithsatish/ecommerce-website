@@ -1,6 +1,3 @@
-// I did not Understand the This middleware Logic.
-
-
 import multer from "multer";
 
 const storage = multer.diskStorage({
